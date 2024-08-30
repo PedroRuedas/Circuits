@@ -40,7 +40,7 @@ void loop()
   digitalWrite(led_verde2,LOW);
   digitalWrite(led_amarelo2,LOW);
   digitalWrite(led_vermelho2,HIGH);
-   //aguardar 5 segundos
+   //aguardar 3 segundos
   delay(3000);
    //estado 3 - vermelho 1 ligado verde 2 ligado
   digitalWrite(led_verde,LOW);
@@ -58,5 +58,6 @@ void loop()
   digitalWrite(led_verde2,LOW);
   digitalWrite(led_amarelo2,HIGH);
   digitalWrite(led_vermelho2,LOW);
+  //aguardar 3 segundos
   delay(3000);
 }
